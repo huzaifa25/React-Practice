@@ -1,8 +1,9 @@
-function Register()
+function Register(prop)
 {
+    console.log(prop)
     return(
         <div>
-            <h1>Register your self</h1>
+            <h1>Hello {prop.name}</h1>
         </div>
     )
 }
