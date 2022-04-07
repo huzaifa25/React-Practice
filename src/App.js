@@ -8,26 +8,17 @@ import Register from './Register.js';
 import Login from './Login';
 import Time from './Time';
 import "./index.css"
+import ChangeName from './ChangeName';
 function App() {
-  const [data,chngData]=useState("kami");
-  function apple(){
   
-    
-  }
   return (
     <div className="App">
-      <BrowserRouter>
+  
 
-      <Login/>
-      <Time/>
-    
+        <Time/>
+        <ChangeName/>
 
-
-      <User names={"huzi"} email={"huzi25dec@gmail.com"} address={"karachi"}/> 
-      <Register name={data} />
-      <button onClick={()=>{chngData("sid")}}>click me to change the name</button>
-   
-      </BrowserRouter>
+     
     </div>
   );
 }
