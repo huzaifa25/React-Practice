@@ -1,0 +1,22 @@
+.header{
+    width: 100%;
+    height: 6rem;
+}
+h1{
+    color: #e50914;
+    font-family: system-ui;
+    position: relative;
+    right: 32rem;
+    top: -2.65rem;
+    font-size: 3rem;
+}
+.Best{
+    color: whitesmoke;
+    font-size: 2.5rem;
+    font-family: system-ui;
+    font-weight: 500;
+    /* margin:1rem 0rem 0rem 0rem; */
+    position: relative;
+    right: 51rem;
+    top: 2.35rem;
+}
