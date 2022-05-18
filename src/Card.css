@@ -25,7 +25,7 @@
 
 }
 .title{
-    font-size: large;
+    font-size: x-large;
     font-weight: 700;
     color: whitesmoke;
 }
@@ -41,4 +41,85 @@
 .btn:hover{
     opacity: 2;
     background-color:#cb5b60 ;
+}
+
+/* ---------------- Responsive ---------------- */
+@media(max-width:1200px) {
+    .cards{
+        width: 29%;
+        height: 36rem;
+        margin: 1rem;
+    }
+}
+@media(max-width:1024px) {
+    .cards{
+        width: 45%;
+        height: 37rem;
+        margin: 1rem 0rem 8rem 2rem;
+        position: relative;
+        right: 0.6rem;
+    }
+    .title{
+        font-size: x-large;
+        font-weight: 700;
+    }
+  
+}
+@media(max-width:900px) {
+    .cards{
+        width: 45%;
+        height: 37rem;
+        margin: 1rem 0rem 8rem 2rem;
+        position: relative;
+        right: 0.6rem;
+    }
+    .title{
+        font-size: x-large;
+        font-weight: 700;
+    }
+
+}
+@media(max-width:768px) {
+    .cards{
+        width: 45%;
+        height: 37rem;
+        margin: 1rem 0rem 8rem 2rem;
+        position: relative;
+        right: 1rem;
+        
+    }
+
+}
+@media(max-width:668px) {
+    .cards{
+        width: 76%;
+        height: 37rem;
+        margin: 2rem 0rem 8rem 2rem;
+        position: relative;
+        right: 1rem;
+        
+    }
+
+}
+@media(max-width:480px) {
+    .cards{
+        width: 90%;
+        height: 37rem;
+        margin: 3.5rem 0rem 8rem 2rem;
+        position: relative;
+        right: 1rem;
+        
+    }
+   
+
+}
+@media(max-width:320px) {
+    .cards{
+        width: 138%;
+        height: 36rem;
+        margin: 3rem 0rem 7rem 2rem;
+        position: relative;
+        right: 1.3rem;
+    }
+   
 }

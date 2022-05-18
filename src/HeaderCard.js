@@ -2,7 +2,7 @@ import './HeaderCard.css';
 function HeaderCard(){
     return(
             <div className="header">
-                <span className="Best">BEST TV SHOWS ON</span> <h1>NETFLIX</h1>
+               <p className='heading'> <span className="Best">BEST TV SHOWS ON</span> <span className="net">NETFLIX</span></p>
             </div>
     )
 }

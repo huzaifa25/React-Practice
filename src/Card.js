@@ -13,7 +13,7 @@ function Card(props){
                     <br/><a href={props.link} target="_blank"  ><button className='btn'>Watch Now</button></a>
                     </div>
                 </div>
-            </div>
+            </div>  
         </>
     )
 }

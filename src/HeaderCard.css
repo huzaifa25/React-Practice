@@ -2,21 +2,139 @@
     width: 100%;
     height: 6rem;
 }
-h1{
+.net{
     color: #e50914;
     font-family: system-ui;
-    position: relative;
-    right: 32rem;
-    top: -2.65rem;
     font-size: 3rem;
+    font-weight: 700;
+    position: relative;
+    right: -0.7rem;
+    top: 0.1rem;
 }
 .Best{
     color: whitesmoke;
     font-size: 2.5rem;
     font-family: system-ui;
     font-weight: 500;
-    /* margin:1rem 0rem 0rem 0rem; */
+}
+.heading{
     position: relative;
-    right: 51rem;
-    top: 2.35rem;
+    right: 38rem;
+    top: 2.6rem;
+}
+/* Footer */
+.footer{
+    width: 100%;
+    height: 3rem;
+    position: relative;
+    bottom: -10rem;
+    color: whitesmoke;
+}
+.head2{
+    color: #e50914;
+    font-family: system-ui;
+    position: relative;
+    right: 0rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+/* ---------------- Responsive ---------------- */
+
+@media(max-width:1800px) {
+    .heading{
+        position: relative;
+        right: 33rem;
+    }
+
+}
+@media(max-width:1600px) {
+    .heading{
+        position: relative;
+        right: 27rem;
+    }
+
+}
+@media(max-width:1400px) {
+    .heading{
+        position: relative;
+        right: 18rem;
+    }
+  
+}
+@media(max-width:1200px) {
+    .heading{
+        position: relative;
+        right: -1rem;
+        top: 1.5rem;
+    }
+   
+}
+@media(max-width:1024px) {
+    /* .heading{
+        position: relative;
+        right: -5.3rem;
+        top: -2.75rem;
+    } */
+    .head2{
+        
+        position: relative;
+        right: -0.6rem;
+       
+    }
+}
+@media(max-width:768px) {
+    .heading{
+        position: relative;
+        right: 0rem;
+    
+    }
+
+    
+
+}
+@media(max-width:668px) {
+    .heading{
+        position: relative;
+        right: 0rem;
+    
+    }
+
+}
+@media(max-width:668px) {
+    .head2{
+        position: relative;
+        right:0rem
+    }
+}
+@media(max-width:320px) {
+    .heading{
+        position: relative;
+        right: -4.2rem;
+        top: 2.25rem;
+    }
+    .net{
+        font-size: 3rem;
+    }
+    .Best{
+        font-size: 2.2rem;
+        
+    }
+    .footer{
+        width: 145%;
+    }
+
+   
+}
+@media(max-width:284px) {
+    .heading{
+        position: relative;
+        right: -4rem;
+        top: 1.25rem;
+    }
+    .Best{
+        font-size: 2.1rem;
+        
+    }
+
+   
 }
