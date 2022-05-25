@@ -1,21 +1,28 @@
-
-import React from "react";
-import { useState } from "react";
-
-
-
+import React, { useState } from "react";
+import './form.css'
 
 const App = () => {
-    let CurrentTime = new Date().toLocaleTimeString();
-    const [CTime, SetCTime] = useState(CurrentTime);
-    const NewTime = () => {
-        CurrentTime = new Date().toLocaleTimeString();
-        SetCTime(CurrentTime);
+
+    
+    const [holder, Setholder] = useState("");
+    const[fullName, SetFullName] = useState();
+
+    const nameSafer = (event) =>{
+        console.log (event.target.value)
+        Setholder(event.target.value)
     }
+    const safeer = () => {
+        
+        SetFullName(holder);
+    }
+
     return(
         <>
-            <h1>{CTime}</h1>
-            <button onClick={NewTime}>Get Update Time</button>
+            <div>
+                <h1>Hello {fullName}</h1>
+                <input type="text" placeholder="Enter Your Name" onChange={nameSafer} value={holder}/>
+                <button onClick={safeer}>Submit</button>
+            </div>
         </>
     );
 }
