@@ -11,18 +11,20 @@ const App = () => {
         console.log (event.target.value)
         Setholder(event.target.value)
     }
-    const safeer = () => {
-        
+    const safeer = (event) => {
+        event.preventDefault();
         SetFullName(holder);
     }
 
     return(
         <>
-            <div>
-                <h1>Hello {fullName}</h1>
-                <input type="text" placeholder="Enter Your Name" onChange={nameSafer} value={holder}/>
-                <button onClick={safeer}>Submit</button>
-            </div>
+            <form onSubmit={safeer}>
+                <div>
+                 <h1>Hello {fullName}</h1>
+                 <input type="text" placeholder="Enter Your Name" onChange={nameSafer} value={holder}/>
+                 <button type="submit">Submit</button>      
+                </div>
+            </form>
         </>
     );
 }
